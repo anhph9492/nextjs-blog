@@ -1,3 +1,7 @@
+/**
+ * custom document
+ * https://nextjs.org/docs/pages/building-your-application/routing/custom-document
+ */
 import { Head, Html, Main, NextScript } from "next/document";
 
 export default function Document() {

@@ -1,6 +1,6 @@
 import Head from "next/head";
 import Link from "next/link";
-import Layout from "src/components/layout"
+import Layout from "/src/components/layout"
 
 export default function FirstPostComponent() {
   return (
@@ -8,9 +8,10 @@ export default function FirstPostComponent() {
       <Head>
         <title>First Post</title>
       </Head>
-      <h1>First Post</h1>
+      <h1 className="underline" >First Post</h1>
       <h2>
         <Link href="/">← Back to home</Link>
+       
       </h2>
     </Layout>
   );
